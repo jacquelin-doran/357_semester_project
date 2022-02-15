@@ -3,11 +3,11 @@ We will use [Location and Context APIs](https://www.google.com/url?q=https://dev
 
 
 ### Project Team
--Hanna Halstead [github] (www.google.com)
+-Hanna Halstead [github](www.google.com)
 
--Jacquelin Doran [github] (www.google.com)
+-Jacquelin Doran [github](www.google.com)
 
--Brennan Luttrell [github] (www.google.com)
+-Brennan Luttrell [github](www.google.com)
 
 
 ```markdown
