@@ -10,9 +10,11 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import androidx.core.content.ContextCompat
 import com.google.android.gms.common.GooglePlayServicesUtil
 import com.google.android.gms.common.GooglePlayServicesUtil.isGooglePlayServicesAvailable
 import edu.gvsu.cis.spotme.databinding.ActivityMainBinding
+import java.util.jar.Manifest
 
 class MainActivity : AppCompatActivity() {
 
@@ -40,7 +42,34 @@ class MainActivity : AppCompatActivity() {
         //This checks the connection to Google Play Services, a result code of 0 means success
         var resultCode = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this)
         println(resultCode);
+
+//        when {
+//            ContextCompat.checkSelfPermission(
+//                this, Manifest.permission.BLUETOOTH) == Packagemanager.PERMISSION_GRANTED ->{
+//                    //use api that requres permission
+//                }
+//            shouldShowRequestPermissionRationale(...) -> {
+//                //
+//                showInContextUI(..)
+//            }
+//            else -> {
+//                //directly ask for permission
+//                requestPermissionLauncher.launch(Manifest.permission.BLUETOOTH)
+//            }
+//        }
+
     }
+
+    //Requesting Permissions
+//    private fun requestPermissionLauncher() {
+//        if (shouldShowRequestPermissionRationaleCompat(Manifest.permission.BLUETOOTH)){
+//            //provide additional rationale
+//            layout.showSnackbar(R.string.app_name, Snackbar.LENGTH_SHORT, R.string.app_name){
+//                requestPermissionsCompat(arrayOf(Manifest.permission.BLUETOOTH), )
+//            }
+//        }
+//    }
+
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.

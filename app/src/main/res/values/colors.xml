@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!--Color palette for the application -->
+    <color name="whale_blue">#6497BF</color>
+    <color name="light_blue">#9FCBEE</color>
+    <color name="royal_blue">#01016F</color>
+    <color name="red">#D8031C</color>
+    <color name="gray">#5a5a5a</color>
 </resources>
